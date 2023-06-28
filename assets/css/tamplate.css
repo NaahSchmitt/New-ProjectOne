@@ -1,0 +1,146 @@
+*{
+    font-family: Arial;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    height: 100px;
+
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.menu {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: arial;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #39aae1;
+    color: #ffffff;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./imagens/principal.jpg");
+    height: 750px;
+}
+.column {
+    flex-direction: column;
+    margin-top: 120px;
+}
+.banner_headline{
+    flex:1;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.banner_headline h1{
+    color:#ffffff;
+    font-size: 60px;
+    text-shadow: 0px 1px 0px #0d084a;
+    margin:0;
+    padding: 0;
+    max-width: 300px;
+}
+
+.banner_headline h2{
+    color:#ffffff;
+    font-size: 25px;
+    text-shadow: 0px 1px 0px #0b054a;
+    margin:0;
+    padding: 0;
+    max-width:300px;
+    margin-top: 30px;
+    
+}
+
+.banner_options{
+    height: 210px;
+    display: flex;
+    margin-top: 50px;
+}
+.banner1,
+.banner2,
+.banner3{
+    flex:1;
+    color:#ffffff;
+    padding: 71px;
+}
+.banner1{
+    background-color: #39aae1;
+    padding:25px;
+}
+.banner2{
+    background-color: #065177;  
+    padding:25px;
+    
+}
+.banner3{
+    background-color: #4b809b;
+    padding:25px;
+}
+.tittle{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:0px;
+}
+.banner_desc{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner_options a{
+    display:inline-block;
+    border: 1px solid #ffffff;
+    margin-top:18px;
+    padding:5px;
+    color:#ffffff;
+    font-size: 15px;
+    text-decoration:none;
+
+}
